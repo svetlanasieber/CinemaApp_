@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCoreArchTemplate.Data.Models\AspNetCoreArchTemplate.Data.Models.csproj" />
+    <ProjectReference Include="..\AspNetCoreArchTemplate.GCommon\AspNetCoreArchTemplate.GCommon.csproj" />
+    <ProjectReference Include="..\AspNetCoreArchTemplate.Services.AutoMapping\AspNetCoreArchTemplate.Services.AutoMapping.csproj" />
+  </ItemGroup>
+
+</Project>
